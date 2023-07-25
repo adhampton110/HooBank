@@ -1,8 +1,9 @@
 <script setup>
+  import Hero from './layouts/Hero/Hero.vue';
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <Hero/>
 </template>
 
 <style scoped>
