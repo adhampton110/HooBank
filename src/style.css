@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --white: #FFFFFF;
   --gray: rgba(255, 255, 255, 0.70);
-  --black: #00040E;
+  --black: #00040F;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: var(--white);
+  color: var(--gray);
   font-size: 18px;
   line-height: 170%;
+  background: var(--black);
 }
 h1 {
   font-size: 72px;
   font-weight: 600;
   line-height: 140%;
   letter-spacing: 0.72px;
+  color: var(--white);
 }
 h2 {
   font-size: 48px;
@@ -38,4 +43,7 @@ a {
   border-radius: 20px;
   background: linear-gradient(154deg, #FFF 16.15%, #6D6D6D 57.81%, #11101D 93.23%);
   backdrop-filter: blur(5px);
+}
+.gray-gradient {
+  background: linear-gradient(135deg, #272727 0%, #11101D 100%);
 }
