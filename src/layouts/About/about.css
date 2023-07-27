@@ -1,0 +1,50 @@
+p {
+    color: var(--white);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2 {
+    width: 470px;
+}
+.header p {
+    width: 450px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    max-width: 370px;
+    height: 395px;
+    border-radius: 20px;
+    background: gray;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.quote-image {
+    width: 42px; 
+    height: 24px; 
+}
+.profile-image {
+    width: 48px;
+    height: 48px;
+}
+.title{
+    color: var(--gray);
+}
+.name {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--white);
+}

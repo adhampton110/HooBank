@@ -1,4 +1,5 @@
 <script setup>
+  import About from './layouts/About/About.vue';
   import Hero from './layouts/Hero/Hero.vue';
   import Business from './layouts/Business/Business.vue';
   import Control from './layouts/Control/Control.vue';
@@ -10,6 +11,7 @@
   <Business/>
   <Control/>
   <Deal/>
+  <About/>
 </template>
 
 <style scoped>
