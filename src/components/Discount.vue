@@ -16,6 +16,7 @@ button {
     display: flex;
     padding: 6px 10px;
     justify-content: space-between;
+    align-items: center;
 }
     .discount-image {
         background-image: url('../assets/Discount.svg');
