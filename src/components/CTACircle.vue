@@ -13,7 +13,7 @@
 
 <style scoped>
     p {
-        background: linear-gradient(180deg, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+        background: var(--cyan);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

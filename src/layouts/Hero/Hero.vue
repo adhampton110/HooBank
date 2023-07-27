@@ -43,7 +43,7 @@ import Stat from '../../components/Stat.vue';
         
     }
     .hero-image {
-        width: 669px;
+        max-width: 669px;
     }
     .company-stats {
         display: flex;
