@@ -5,14 +5,14 @@
     <section id="business">
         <div>
             <h2>You do the business, we'll handle the money</h2>
-            <p>
+            <p class="description">
                 With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
             </p>
             <CTARectangle/>
         </div>
         <div class="business-items">
             <div class="rewards">
-                <img src="../../assets/Star.svg" alt="start">
+                <div class="img-wrapper"><img src="../../assets/Star.svg" alt="start"></div>
                 <div>
                     <h4>Rewards</h4>
                     <p class="content">
@@ -20,8 +20,8 @@
                     </p>
                 </div>
             </div>
-            <div class="secured active">
-                <img src="../../assets/Shield.svg" alt="shield">
+            <div class="secured wht-blk-gradient">
+                <div class="img-wrapper"><img src="../../assets/Shield.svg" alt="shield"></div>
                 <div>
                     <h4>100% Secured</h4>
                     <p class="content">
@@ -30,9 +30,9 @@
                 </div>
             </div>
             <div class="balance">
-                <img src="../../assets/Send.svg" alt="send">
+                <div class="img-wrapper"><img src="../../assets/Send.svg" alt="send"></div>
                 <div>
-                    <h4>Balance Transfer</h4>
+                    <h4 class="mb-2">Balance Transfer</h4>
                     <p class="content">
                         A balance transfer credit card can save you a lot of money in interest charges.
                     </p>
@@ -42,10 +42,18 @@
     </section>
 </template>
 <style scoped>
-    img {
-        padding: 12px;
-        background-color: rgba(9, 151, 124, 0.10);
-        border-color: rgba(9, 151, 124, 0.10);
+    .description {
+        margin-top: 24px;
+        margin-bottom: 68px;
+    }
+    .img-wrapper {
+        width: 64px;
+        height: 64px;
+        background-color: var(--transparent-turquoise);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
     }
     #business {
         display: flex;
@@ -57,15 +65,18 @@
         gap: 36px;
     }
     .rewards,.secured,.balance {
+        width: 470px;
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 20px;
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
-    .active {
-        border-radius: 20px;
-        background: linear-gradient(154deg, rgba(255, 255, 255, 0.00) 0%, #14101D 100%);
-        box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.10);
-    }
     .content {
+        margin-top: 8px;
         font-size: 16px;
+        width: 346px;
+        line-height: normal;
     }
 </style>
