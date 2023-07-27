@@ -1,10 +1,10 @@
 <script setup>
   import About from './layouts/About/About.vue';
-  import Affiliates from './components/Affiliates.vue';
   import Hero from './layouts/Hero/Hero.vue';
   import Business from './layouts/Business/Business.vue';
   import Control from './layouts/Control/Control.vue';
   import Deal from './layouts/Deal/Deal.vue';
+  import Service from './components/Service.vue';
 </script>
 
 <template>
@@ -13,7 +13,7 @@
   <Control/>
   <Deal/>
   <About/>
-  <Affiliates/>
+  <Service/>
 </template>
 
 <style scoped>
