@@ -4,6 +4,7 @@
   import Business from './layouts/Business/Business.vue';
   import Control from './layouts/Control/Control.vue';
   import Deal from './layouts/Deal/Deal.vue';
+  import Footer from './components/Footer.vue';
   import Service from './components/Service.vue';
 </script>
 
@@ -14,6 +15,7 @@
   <Deal/>
   <About/>
   <Service/>
+  <Footer/>
 </template>
 
 <style scoped>
